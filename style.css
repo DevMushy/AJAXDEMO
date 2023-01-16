@@ -1,0 +1,63 @@
+body {
+    background-color: #001736;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    width: 7rem;
+    border-radius: 20px;
+    border: solid 1px black;
+    box-shadow: black 0px 0px 12px 1px;
+}
+
+p,
+span {
+    color: black;
+}
+
+p {
+    font-weight: bolder;
+}
+
+span {
+    font-weight: bold;
+}
+
+.idPanel {
+    background-color: #2173FD;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 10px;
+    box-shadow: #2173FD 0px 0px 12px 1px,
+        #001736 0px 0px 12px 1px inset;
+}
+
+.button {
+    border: 2px solid #464F65;
+    box-shadow: #464F65 0px 0px 12px 1px inset,
+        #464F65 0px 0px 12px 1px;
+    border-radius: 15px;
+    width: 10rem;
+
+}
+
+.button:hover {
+    border: 2px solid #464F65;
+    box-shadow: #001736 0px 0px 12px 1px inset,
+        #2173FD 0px 0px 12px 1px;
+    border-radius: 15px;
+
+}
+
+.firma {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #041f3d;
+}
